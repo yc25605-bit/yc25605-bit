@@ -1,0 +1,28 @@
+{
+  "dataset_type": "synthetic",
+  "description": "人工构造的教学样例，非真实业务数据。所有阶段均按同一注册 cohort 内的顺序去重用户统计。",
+  "cohort": "虚构的连续七天注册用户；最后一名用户已完成 D1 观察",
+  "channels": [
+    {
+      "channel": "内容自然流量",
+      "registered": 1000,
+      "goal_set": 750,
+      "first_learning": 450,
+      "day1_return": 180
+    },
+    {
+      "channel": "社群推荐",
+      "registered": 600,
+      "goal_set": 480,
+      "first_learning": 360,
+      "day1_return": 180
+    },
+    {
+      "channel": "付费投放",
+      "registered": 1400,
+      "goal_set": 770,
+      "first_learning": 308,
+      "day1_return": 77
+    }
+  ]
+}
